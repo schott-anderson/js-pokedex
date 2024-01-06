@@ -1,0 +1,80 @@
+section {
+  padding: 1rem;
+}
+
+.card {
+  margin-bottom: -4.5rem;
+  background-color: #77c850;
+  border-radius: 1rem;
+}
+.card .topo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card .pokemon {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-bottom: 4.5rem;
+}
+
+.types {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px;
+  margin: -0.5rem;
+}
+
+.type {
+  margin: 1rem;
+}
+
+.number {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  margin: 2px;
+}
+
+.information {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin-top: -1rem;
+  background-color: #77c850;
+  padding-bottom: 2rem;
+}
+
+.information img {
+  max-width: 40%;
+  height: auto;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.cardtext {
+  border: 1px solid;
+  border-radius: 1.5rem;
+  margin-top: -1.5rem;
+  background-color: #fff;
+  /* margin-top: 2rem;*/
+}
+.space {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.menu .nav {
+  margin: 0.5rem;
+  padding-bottom: 2rem;
+}
+.about table {
+  width: 100%;
+}
