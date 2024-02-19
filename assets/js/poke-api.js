@@ -14,7 +14,6 @@ function convertPokeApiDetailToPokemon(pokeDetail) {
   //sprites.other.dream_world.front_default
   return pokemon;
 }
-
 pokeApi.getPokemonDetail = (pokemon) => {
   return fetch(pokemon.url)
     .then((response) => response.json())
@@ -35,7 +34,7 @@ pokeApi.getPokemons = (offset = 0, limit = 5) => {
 //    .then((response) => response.json)
 //    .then((jsonBody) => jsonBody.results)
 //    .then((pokemons) => pokemons.map(pokeApi.getPokemonDetail))
-//    .them((detailRequests) => Promise.all(detailRequests))
+//    .then((detailRequests) => Promise.all(detailRequests))
 //   .then((pokemonsDetails) => {
 //      debugger;
 //      console.log(pokemonsDetails);
